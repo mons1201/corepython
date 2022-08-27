@@ -1,0 +1,47 @@
+1. Operators
+   ---> Comparision property (or) Relational operator
+         <  ,>  ,<=  ,>=
+   ---> Arithmetic operator
+         a+,a-,a/,a%,a*         /-divide    %-modulo
+   --->Assignment Operator
+         =,==,+=,-=,/=,%=,*=          modulo
+                                      a=20, b=3  ans:20/3=2
+   --->Logical operator
+       AND(*), OR(+), NOT(opposite)
+
+2.Control statements
+
+   * if     * elif  * else
+3. While Looping
+   *while *infinite loop  *Nested while loop
+
+4.For loop
+  *for *nested for loop *pattern
+
+5.strings
+  *strip *split *casefold *capitalize *center *endswith *join *isalnum *isalpha
+
+6.Data Types
+  -->Integer -1,2,3
+  -->float   -decimal value
+  -->String  -a to z
+  -->charater -Initial
+  -->Boolean -true(1) False(0)
+7.Functions
+  
+8.Oops Concepts
+  -->object-real time entity
+  -->class -collection of object
+  -->abstraction
+  -->encapsulation
+  -->inheritance  - singel,multiple,multilevel,hirerical
+  -->polymorphism -overloading,overriding
+
+9.Multithreading
+
+10.Exception handing
+
+11.Files
+
+
+  
