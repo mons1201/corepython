@@ -1,4 +1,4 @@
-class Bank:
+'''class Bank:
 
     def __init__(self):
         self.__value=10 #private value
@@ -10,7 +10,7 @@ class Bank:
         print("A/C no:1234")
         print("amount:1000")
         print("address:salem")
-        print('\n')
+        print("\n")
     
     def __ram(self):
 
@@ -28,4 +28,12 @@ obj._Bank__ram()
 
 print("values",obj._Bank__value)
 
-        
+
+
+print("values",obj._Bank__value)
+'''
+
+
+
+
+

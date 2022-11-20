@@ -11,7 +11,7 @@ def binary(data,start=0,end=len(house)-1):
         elif house[mid] >data:return binary (data, start,mid)
         else:return binary(data,mid+1,end)
     else:
-        return 0
+        return -1
 
 users=int(input("Tell us data want to search: "))
 pos=binary(users)
