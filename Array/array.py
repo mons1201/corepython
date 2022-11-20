@@ -1,5 +1,5 @@
 from array import *
-var=array('i',[1,2,3,4,5,6,7,8,9,0,12])
+'''var=array('i',[1,2,3,4,5,6,7,8,9,0,12])
 
 print(var.buffer_info())  #address and length
 
@@ -38,23 +38,24 @@ print(var)
 print(var.count(0))
 print(var.itemsize)
 print(len(var))
-print(var.index(9))
+print(var.index(9))'''
 
 
-'''#using for loop
-
+#using for loop
+'''
 var=array('i',[16,2,3,4,5,6,77,88])
 def all():
     print("listing the array")
     for x in var:
         print(x,end=" ")
 
-all()
+all()'''
 
+var=array('i',[16,2,3,4,5,6,77,88])
 def show(index):
     if index<len(var):
         print(var[index],end=" ")
         index+=1
         show(index)
 
-show(2)'''
+show(2)

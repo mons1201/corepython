@@ -1,5 +1,6 @@
 '''
 import threading
+
 import time
 
 l=[10,20,30,40,50]
@@ -25,7 +26,7 @@ end=time.time()
 print("total time taken",end-start)
 
 
-'''
+
 
 #join function
 
@@ -50,4 +51,24 @@ t2.start()
 t2.join()
 
 for i in range(1,6):
+    print("eating",i)'''
+
+import time
+import threading
+
+def food():
+    for i in range(1,5):
+        print("prepare",i)
+        time.sleep(1)
+def food2():
+    for i in range(1,5):
+        print("prepare2",i)
+        time.sleep(1)
+t1=threading.Thread(target=food)
+t1.start()
+t1.join()
+t2=threading.Thread(target=food2)
+t2.start()
+t2.join()
+for i in range(1,5):
     print("eating",i)
